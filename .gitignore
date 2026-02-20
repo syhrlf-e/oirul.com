@@ -1,0 +1,8 @@
+BRIEF/
+node_modules/
+.next/
+.env
+.env.local
+.DS_Store
+dist/
+build/
