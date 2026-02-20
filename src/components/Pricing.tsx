@@ -30,33 +30,47 @@ export default function Pricing() {
                 <span className="material-symbols-outlined text-base text-primary">
                   check_small
                 </span>{" "}
-                <span className="text-text-main">1 Halaman</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="material-symbols-outlined text-base text-primary">
-                  check_small
-                </span>{" "}
                 <span className="text-text-main">
-                  Responsif (Mobile Friendly)
+                  1 Halaman Landing Page (High Conversion)
                 </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="material-symbols-outlined text-base text-primary">
                   check_small
                 </span>{" "}
-                <span className="text-text-main">WhatsApp Chat Button</span>
+                <span className="text-text-main">
+                  Desain Responsif (Mobile, Tablet, Desktop)
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="material-symbols-outlined text-base text-primary">
                   check_small
                 </span>{" "}
-                <span className="text-text-main">Copywriting Standar</span>
+                <span className="text-text-main">Integrasi WhatsApp Chat</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="material-symbols-outlined text-base text-primary">
                   check_small
                 </span>{" "}
-                <span className="text-text-main">Optimasi Kecepatan</span>
+                <span className="text-text-main">
+                  FREE SSL Certificate Selamanya
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="material-symbols-outlined text-base text-primary">
+                  check_small
+                </span>{" "}
+                <span className="text-text-main">
+                  FREE Setup Google Search Console
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="material-symbols-outlined text-base text-primary">
+                  check_small
+                </span>{" "}
+                <span className="text-text-main">
+                  BONUS Copywriting yang Menjual
+                </span>
               </li>
             </ul>
             <Link
@@ -84,39 +98,41 @@ export default function Pricing() {
                 <span className="material-symbols-outlined text-base text-primary">
                   check_small
                 </span>{" "}
-                <span className="text-text-main font-medium">5 Halaman</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="material-symbols-outlined text-base text-primary">
-                  check_small
-                </span>{" "}
-                <span className="text-text-main">Free Domain .COM</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="material-symbols-outlined text-base text-primary">
-                  check_small
-                </span>{" "}
-                <span className="text-text-main">
-                  Email Bisnis Professional
+                <span className="text-text-main font-medium">
+                  Hingga 5 Halaman (Home, About, Services, dll)
                 </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="material-symbols-outlined text-base text-primary">
                   check_small
                 </span>{" "}
-                <span className="text-text-main">SEO Dasar & Indexing</span>
+                <span className="text-text-main">
+                  FREE Domain .COM atau .ID & Hosting (1 Tahun)
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="material-symbols-outlined text-base text-primary">
                   check_small
                 </span>{" "}
-                <span className="text-text-main">Desain Kustom Premium</span>
+                <span className="text-text-main">
+                  SEO Dasar & Indexing Google
+                </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="material-symbols-outlined text-base text-primary">
                   check_small
                 </span>{" "}
-                <span className="text-text-main">Keamanan SSL</span>
+                <span className="text-text-main">
+                  Desain Kustom Premium (No Templates)
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="material-symbols-outlined text-base text-primary">
+                  check_small
+                </span>{" "}
+                <span className="text-text-main">
+                  FREE Maintenance & Update Konten (1 Bulan Pertama)
+                </span>
               </li>
             </ul>
             <Link
@@ -137,33 +153,55 @@ export default function Pricing() {
                 <span className="material-symbols-outlined text-base text-primary">
                   check_small
                 </span>{" "}
-                <span className="text-text-main">Sistem Katalog Online</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="material-symbols-outlined text-base text-primary">
-                  check_small
-                </span>{" "}
-                <span className="text-text-main">Unlimited Produk</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="material-symbols-outlined text-base text-primary">
-                  check_small
-                </span>{" "}
-                <span className="text-text-main">Auto Checkout WA</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="material-symbols-outlined text-base text-primary">
-                  check_small
-                </span>{" "}
                 <span className="text-text-main">
-                  Integrasi Pembayaran Otomatis
+                  Sistem Katalog Produk & Inventaris
                 </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="material-symbols-outlined text-base text-primary">
                   check_small
                 </span>{" "}
-                <span className="text-text-main">Dashboard Admin</span>
+                <span className="text-text-main">
+                  Unlimited Produk & Kategori
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="material-symbols-outlined text-base text-primary">
+                  check_small
+                </span>{" "}
+                <span className="text-text-main">
+                  Auto Checkout ke WhatsApp
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="material-symbols-outlined text-base text-primary">
+                  check_small
+                </span>{" "}
+                <span className="text-text-main">
+                  Integrasi Pembayaran Otomatis (Midtrans/Xendit)
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="material-symbols-outlined text-base text-primary">
+                  check_small
+                </span>{" "}
+                <span className="text-text-main">Dashboard Admin Khusus</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="material-symbols-outlined text-base text-primary">
+                  check_small
+                </span>{" "}
+                <span className="text-text-main">
+                  FREE Video Tutorial Pengoperasian Dashboard
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="material-symbols-outlined text-base text-primary">
+                  check_small
+                </span>{" "}
+                <span className="text-text-main">
+                  FREE Prioritas Support (Fast Response)
+                </span>
               </li>
             </ul>
             <Link
