@@ -84,8 +84,8 @@ export default function Navbar() {
       <div className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border-light">
         <div className="flex items-center justify-between px-6 lg:px-12 h-20 max-w-[1600px] mx-auto relative z-50 bg-background/0">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-black text-white flex items-center justify-center font-bold text-sm">
-              O.
+            <div className="text-white flex items-center justify-center font-bold text-2xl font-clash tracking-wide">
+              OIRUL
             </div>
           </div>
           <nav className="hidden lg:flex items-center gap-8">

@@ -13,6 +13,7 @@
 
   --font-display: Satoshi, sans-serif;
   --font-sans: Satoshi, sans-serif;
+  --font-clash: var(--font-clash);
 
   --letter-spacing-tightest: -0.04em;
   --letter-spacing-tighter: -0.02em;

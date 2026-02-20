@@ -1,5 +1,12 @@
 import type { Metadata } from "next";
+import localFont from "next/font/local";
 import "./globals.css";
+
+const clashDisplay = localFont({
+  src: "./fonts/ClashDisplay-Variable.woff2",
+  variable: "--font-clash",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Oirul — Premium Digital Agency",
@@ -38,7 +45,9 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="antialiased selection:bg-primary selection:text-white font-sans">
+      <body
+        className={`${clashDisplay.variable} antialiased selection:bg-primary selection:text-white font-sans`}
+      >
         {children}
       </body>
     </html>
