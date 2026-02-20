@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+@theme inline {
+  --color-primary: #3b82f6;
+  --color-border-light: #262626;
+  --color-text-main: #ededed;
+  --color-text-muted: #a1a1aa;
+
+  --font-display: Satoshi, sans-serif;
+  --font-sans: Satoshi, sans-serif;
+
+  --letter-spacing-tightest: -0.04em;
+  --letter-spacing-tighter: -0.02em;
+
+  --spacing-18: 4.5rem;
+  --spacing-22: 5.5rem;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Satoshi", sans-serif;
+}
+
+.grid-bg {
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, #262626 1px, transparent 1px),
+    linear-gradient(to bottom, #262626 1px, transparent 1px);
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-primary);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px #262626;
+  color: transparent;
+}
+
+@media (max-width: 640px) {
+  .mobile-tight-leading {
+    line-height: 1.1;
+  }
+}
